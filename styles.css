@@ -11,6 +11,7 @@ body{
     width: 100%;
 
     position: fixed;
+    z-index: 10;
     width: 100%;
     top: 0;
 }
@@ -46,6 +47,12 @@ body{
     width: 20vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.icones .aviao , .descubra, .curtidas, .contatos{
+    
+    font-size: 20px;
 }
 
 .conteudo{
@@ -91,7 +98,9 @@ body{
 }
 
 .stories{
-    background-color: crimson;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+
     
     margin: 34px 0;
     
@@ -101,8 +110,55 @@ body{
     */
     
     height: 17vh;
-    width: 90vh;
+    width: 614px;
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.stories .user{
+
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+    text-align: center;
     
+}
+
+.stories .user .nome-user{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.stories .borda-stories{
+    background-image: url("./assests/icones/stories_background 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    height: 66px;
+    width: 66px;
+}
+
+.stories .image-user{
+    width: 56px;
+    height: 56px;
+}
+
+.stories .setinha-stories{
+    color: crimson;
+    border-radius: 100px;
+
+    font-size: 40px;    
+    left: 570px;
+    position: absolute;
 }
 
 .post-slider{
@@ -116,32 +172,66 @@ body{
     width: 614px;
     */
 
-    width: 90vh;
+    width: 614px
     
 }
 
 .post{
-    background-color: cyan;
-
+    background-color: #FFFFFF;
+    border-radius: 3px;
     /*
     width: 614px;
     height: 749px;
     */
-    width: 90vh;
-    height: 108vh;
+    width: 614px;
+    height: 755px;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     margin-bottom: 10vh;
 }
 
+.post .user{
+    width: 612px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+}
+
+.post .lateral{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+
+.post .more{
+    margin-right: 17px;
+}
+
+.post .foto-user-post{
+    width: 32px;
+    margin-right: 15px;
+}
+
 .post .image{
     
     object-fit: cover;
     background-color: darkorchid;
-    height: 90vh;
+    height: 612px;
+}
+
+.post .feedback{
+    height: 78px;
+}
+
+.feedback .coracao, .comentario, .aviao{
+    font-size: 20px;
 }
 
 .slider-bar{
@@ -151,27 +241,24 @@ body{
     width: 300px;
     height: 550px;
     */
-    margin-left: 2vw;
     width: 292px;
     height: 443PX;
 
     position: fixed;
-    left: 58.5vw;
-    top: 94px;
+    right: calc((100vw - 105    0px)/2);
+    top: 90px;
 
 }
 .slider-bar-sombra{
     
+    margin-top: 34px;
     margin-left: 2vw;
-    width: 20vw;
-    height: 70vh;
+    width: 292px;
+    height: 443PX;
+    
 }
 
-@media (max-width: 1761px){
-    .slider-bar , .slider-bar-sombra{
-        display: none;
-    }
-}
+
 
 @media (max-width: 935px){
     

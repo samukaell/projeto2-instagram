@@ -29,36 +29,106 @@
 
             
             <div class="icones">
-                <a href="#"><img src="./assests/icones/paper-plane-outline 1.png" alt="aviao de papel" class="mensagens"></a>
-                <a href="#"><img src="./assests/icones/compass-outline 1.png" alt="busola" class="descubra"></a>
-                <a href="#"><img src="./assests//icones/heart-outline 1.png" alt="coração" class="curtidas"></a>
-                <a href="#"><img src="./assests/icones/person-outline 1.png" alt="pessoas" class="contatos"></a>
+                <a href="#"><ion-icon name="paper-plane-outline" class="aviao"></ion-icon></a>
+                <a href="#"><ion-icon name="compass-outline" class="descubra"></ion-icon></a>
+                <a href="#"><ion-icon name="heart-outline" class="curtidas"></ion-icon></a>
+                <a href="#"><ion-icon name="person-outline" class="contatos"></ion-icon></a>
             </div>
             
         </div>
     </div>
 
     <div class="conteudo">
+
         <div class="stories-posts">
             <div class="stories">
-                <!--
-                    <div class="user-stores">
-                        <img class="foto-user" src="" alt="">
-                        <p class="name-user"></p>
+                <ion-icon name="chevron-forward-circle" class="setinha-stories"></ion-icon>
+
+                <div class="user">
+                  <div class="borda-stories">
+                      <img src="./assests/user/user1.png" alt="foto de usuario 1" class="image-user">
+                  </div>
+                  <p class="nome-user">9gag</p>
+                </div>
+
+                <div class="user">
+                    <div class="borda-stories">
+                        <img src="./assests/user/user1.png" alt="foto de usuario 1" class="image-user">
                     </div>
-                -->
-                <div class="user-stories"></div>
+                    <p class="nome-user">meowed</p>
+                </div>
+
+                <div class="user">
+                    <div class="borda-stories">
+                        <img src="./assests/user/user1.png" alt="foto de usuario 1" class="image-user">
+                    </div>
+                    <p class="nome-user">barked</p>
+                </div>
+
+                <div class="user">
+                    <div class="borda-stories">
+                        <img src="./assests/user/user1.png" alt="foto de usuario 1" class="image-user">
+                    </div>
+                    <p class="nome-user">nathanwpyle...</p>
+                </div>
+
+                <div class="user">
+                    <div class="borda-stories">
+                        <img src="./assests/user/user1.png" alt="foto de usuario 1" class="image-user">
+                    </div>
+                    <p class="nome-user">wawawiwac...</p>
+                </div>
+
+                <div class="user">
+                    <div class="borda-stories">
+                        <img src="./assests/user/user1.png" alt="foto de usuario 1" class="image-user">
+                    </div>
+                    <p class="nome-user">respondeai</p>
+                </div>
+
+                <div class="user">
+                    <div class="borda-stories">
+                        <img src="./assests/user/user1.png" alt="foto de usuario 1" class="image-user">
+                    </div>
+                    <p class="nome-user">filomoderna</p>
+                </div>
+
+                <div class="user">
+                    <div class="borda-stories">
+                        <img src="./assests/user/user1.png" alt="foto de usuario 1" class="image-user">
+                    </div>
+                    <p class="nome-user">memeriago.</p>
+                </div>
+                
             </div>
 
+
             <div class="posts">
-                <!--
-                <a href="#" class="post">
-                    <div class="user"></div>
-                    <img src="" alt="">
-                    <div class="reacoes"></div>
-                    <div class="curtidos"></div>
-                </a>
-                -->
+
+                <div class="post">
+                    <div class="user"> 
+                       <div class="lateral">
+                            <img src="./assests/user/user2.png" alt="foto de usuario" class="foto-user-post">
+                            <p class="nome-user-post">meowed</p>
+                       </div>
+                       <ion-icon name="ellipsis-horizontal" class="more"></ion-icon>
+                    </div>
+                    <img src="./assests/gato-telefone 1.png" alt="" class="image">
+                    <div class="feedback">
+                        <div class="icones">
+                            <div class="lateral-icones">
+                                <ion-icon name="heart-outline" class="coracao"></ion-icon>
+                                <ion-icon name="chatbubble-outline" class="comentarios"></ion-icon>
+                                <ion-icon name="paper-plane-outline" class="aviao"></ion-icon> 
+
+                            </div>
+                        </div>
+
+                        <div class="curtido"></div>
+
+                    </div>
+                </div>
+                
 
                 <div class="post">
                     <img src="./assests/gato-telefone 1.png" alt="" class="image">
@@ -71,10 +141,16 @@
 
         </div>
 
-        <div class="slider-bar"></div>
-        <div class="slider-bar-sombra"></div>
+        
+        <div class="slider-bar-sombra">
+           
+            <div class="slider-bar"></div>
+        </div>
         
 
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
