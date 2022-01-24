@@ -39,19 +39,19 @@ body{
     */
 }
 
-.header-meio{}
+
 
 .icones{
     
     /*width: 152px;*/
-    width: 20vh;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .icones .aviao , .descubra, .curtidas, .contatos{
-    
+    margin-left: 28px;
     font-size: 20px;
 }
 
@@ -177,7 +177,7 @@ body{
 }
 
 .post{
-    background-color: cyan;
+    background-color: #FFFFFF;
     border-radius: 3px;
     /*
     width: 614px;
@@ -212,7 +212,7 @@ body{
 }
 
 .post .more{
-    margin-right: 14px;
+    margin-right: 1vw;
 }
 
 .post .foto-user-post{
@@ -223,7 +223,7 @@ body{
 .post .image{
     
     /*object-fit: cover;*/
-    background-color: darkorchid;
+
     height: 612px;
 }
 
@@ -247,12 +247,34 @@ body{
  }
 
  .feedback .lateral-icones{
-     background-color: cornflowerblue;
-     margin-left: 14px;
+
+    margin-left: 14px;
  }
 
  .feedback .marcador{
-     margin-right: 14px;
+     margin-right: 1vw;
+ }
+
+ .feedback .curtido{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    margin-top: 14px;
+    margin-left: 14px;
+
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .feedback .curtido strong{
+    
+    font-weight: bold;
+ }
+
+ .feedback .curtido .user-foto{
+     width: 20px;
+     margin-right: 5px;
  }
 
 .slider-bar{
@@ -283,16 +305,27 @@ body{
 
 
 @media (max-width: 935px){
+    .topo,.header{
+       width: 100%;
+    }
+
+    
     
     .slider-bar , .slider-bar-sombra{
         display: none;
     }
+
 }
+
 
 @media (max-width: 614px){
     
     .conteudo,.header,.topo, .stories-posts, .slider-bar, .posts, .post,.user,.user .lateral, .feedback, .stories{
         width: 100%;
+    }
+
+    .header .aviao{
+        margin-right: 2vw;
     }
 
     .setinha-stories{
