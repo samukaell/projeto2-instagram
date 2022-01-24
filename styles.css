@@ -278,8 +278,9 @@ body{
  }
 
 .slider-bar{
-    background-color: #FFFFFF;
-
+    
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
     /*
     width: 300px;
     height: 550px;
@@ -293,6 +294,67 @@ body{
     top: 90px;
 
 }
+
+.slider-bar .user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.slider-bar .user .user-foto{
+    width: 56px;
+    margin-right: 17px;
+}
+
+.slider-bar .user .nome{
+    font-weight: bold;
+}
+
+.slider-bar .ver-tudo{
+    display: flex;
+    justify-content: space-between;
+}
+.slider-bar .ver{
+    font-weight: bold;
+}
+
+.slider-bar .outros{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.slider-bar .outros .info{
+    display: flex;
+    align-items: center;
+}
+
+.slider-bar .outros .user-image{
+    width: 32px;
+    margin-right: 11px;
+}
+
+.slider-bar .outros .nome-users{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.slider-bar .outros .segue-vc{
+    color: #139EF2;
+}
+
+.slider-bar .sobre{
+    margin-top: 35px;
+    color: #C7C7C7;
+    font-size: 11px;
+}
+
+.slider-bar .sobre .info{
+    margin-bottom: 18px;
+    
+}
+
 .slider-bar-sombra{
     
     margin-top: 34px;
